@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cadastro para o Tech Conference 2024</title>
+</head>
+<body>
+    <header class="banner">
+        <h1>Tech Conference 2024</h1>
+    </header>
+    <nav>
+        <a href="#Sobre">Sobre o evento</a>
+        <a href="#Cadastro">Cadastro</a>
+        <a href="#Contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="Sobre">
+            <h2>Sobre o Evento</h2>
+            <p>O Tech Conference 2024 é o maior evento de tecnologia
+            do ano, reunindo especialistas de todo o mundo para discutir inovações e
+            tendências .
+            </p>
+
+        </section>
+
+        <section id="Cadastro">
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <label><strong>Seleção de Workshops:</strong></label>
+                <div class="checkbox-grupo">
+                    <label>
+                        <input type="checkbox" name="Workshops" value="Desenvolivimento Web">Desenvolivimento Web
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="Workshops" value="Cybersecurity"> Cybersecurity
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="Workshops" value="Blockchain"> Blockchain
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="Workshops" value="Machine learning">Machine learning
+                    </label>
+
+                </div>
+                <br>
+                <label><strong>Deseja receber newsletter?</strong></label>
+                <div class="radio-grupo">
+
+                    <label>
+                    <input type="radio" name="newsletter" value="Sim"> Sim
+                    </label>
+
+                    <label>
+                        <input type="radio" name="newsletter" value="Não"> Não
+                    </label>
+                </div>
+                <button type="submit">Enviar inscriçao</button>
+            </form>
+        </section>
+
+        <section id="Contato">
+            <h2>Contato</h2>
+            <p>
+                Para mais informações, entre em conosco pelo email
+                <a href="techconference2024@exemplo.com">techconference2024@exemplo.com</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Tech Conference. todos os direitos reservados
+    </footer>
+</body>
+</html>
